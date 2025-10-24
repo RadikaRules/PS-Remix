@@ -13,7 +13,7 @@ config_version=5
 config/name="Power Swing ReMixed"
 config/description="A reinvention of the Flash games Power Ball and Power Swing by D-SuN
 developed in Godot with new features and tweaks inspired by Lethal League"
-run/main_scene="res://scene/title.tscn"
+run/main_scene="res://scene/splash/splash.tscn"
 config/features=PackedStringArray("4.1", "Forward Plus")
 config/icon="res://gfx/icon.png"
 

@@ -64,26 +64,33 @@ Stronger, time-based hits only, no bunt or charge
 - Slight edits with different time of day or weather
 ## Classic mode
 - Rotate between characters at random in grass stage
+## Versus
+- Choose any character, stage and BGM
 ---
 # Characters
 
-## Batter (Jimmy)
+## Char (Ethan)
 - All-rounder
 
-## Batter2 (Kevin)
-- Same stats, visually different to require less accesibility changes
+## Char2 (Kevin)
+- Same stats, visually different (Backwards cap etc) to require less accessibility changes
 
-## Martial Artist
+## Fist (Martial Artist)
 - Fast hits, no charge
 
-## Hooligan
+## Thug (Hooligan)
 - Harder hits overall, no charge
 
-## Mr. Sun
+## Dan (Mr. Sun)
 - Has pen in hand
 - Name and pen is a reference to D-SuN
 
 ## Radika
-- Uses edited Martial Artist animations
+- Uses Martial Artist animations with different VFX
 - Fast hits
 - Can charge
+
+# Misc features
+
+## Playlist mode
+- Loads a defined list of tracks that can be use anywhere in Versus or Singleplayer (Minus Classic)

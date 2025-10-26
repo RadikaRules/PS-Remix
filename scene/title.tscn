@@ -1,6 +1,6 @@
 [gd_scene load_steps=13 format=3 uid="uid://dvwx0spejm33l"]
 
-[ext_resource type="Texture2D" uid="uid://rjut2ivegjny" path="res://gfx/logo.png" id="1_hsxwy"]
+[ext_resource type="Texture2D" uid="uid://d0tdupwvuclil" path="res://gfx/Logo.svg" id="1_6627o"]
 [ext_resource type="AudioStream" uid="uid://dxibeg3wk8aj8" path="res://music/136638_Hippie.mp3" id="1_xroyi"]
 [ext_resource type="Theme" uid="uid://6aycbqsfxlik" path="res://resource/theme_main.tres" id="3_typdi"]
 [ext_resource type="PackedScene" uid="uid://bffdlbc2gmopu" path="res://scene/ui, hud/buttons/start.tscn" id="4_qfvgx"]
@@ -44,8 +44,8 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_ombnt"]
 _data = {
-"RESET": SubResource("Animation_5xdv0"),
-"scroll_text": SubResource("Animation_k8yov")
+&"RESET": SubResource("Animation_5xdv0"),
+&"scroll_text": SubResource("Animation_k8yov")
 }
 
 [node name="title-screen" type="Control"]
@@ -62,16 +62,18 @@ layout_mode = 1
 anchors_preset = 5
 anchor_left = 0.5
 anchor_right = 0.5
-offset_left = -212.0
-offset_top = -15.0
-offset_right = 495.0
-offset_bottom = 339.0
+offset_left = -214.0
+offset_top = 99.99999
+offset_right = 493.0
+offset_bottom = 454.0
 grow_horizontal = 2
 scale = Vector2(0.7, 0.7)
 
 [node name="logo" type="TextureRect" parent="CenterContainer"]
 layout_mode = 2
-texture = ExtResource("1_hsxwy")
+texture = ExtResource("1_6627o")
+expand_mode = 3
+stretch_mode = 3
 
 [node name="bgm" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("1_xroyi")
@@ -94,10 +96,10 @@ anchors_preset = 12
 anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = 406.0
-offset_top = -421.0
-offset_right = -363.0
-offset_bottom = -211.0
+offset_left = 386.0
+offset_top = -340.0
+offset_right = -383.0
+offset_bottom = -130.0
 grow_horizontal = 2
 grow_vertical = 0
 theme = ExtResource("3_typdi")
@@ -130,7 +132,7 @@ offset_right = 1068.0
 offset_bottom = 699.0
 
 [node name="BG-tooltip" type="ColorRect" parent="."]
-layout_mode = 2
+layout_mode = 0
 offset_left = -20.0
 offset_top = 650.0
 offset_right = 1046.0
@@ -149,7 +151,7 @@ offset_bottom = 31.0
 color = Color(1, 1, 0.0196078, 1)
 
 [node name="Info" type="RichTextLabel" parent="BG-tooltip/BG-tooltip2"]
-layout_mode = 2
+layout_mode = 0
 offset_left = 5.0
 offset_top = 5.0
 offset_right = 1093.0
@@ -161,18 +163,24 @@ text = "Info"
 fit_content = true
 
 [node name="InfoText" type="RichTextLabel" parent="BG-tooltip"]
-layout_mode = 2
-offset_left = 501.0
-offset_top = 16.0
-offset_right = 1589.0
-offset_bottom = 39.0
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = 448.0
+offset_top = -10.0
+offset_right = -104.0
+offset_bottom = 10.0
+grow_horizontal = 2
+grow_vertical = 2
 theme_override_colors/default_color = Color(0, 0, 0, 1)
 theme_override_fonts/normal_font = ExtResource("10_e2fkj")
 text = "Hey, this is a test!"
 fit_content = true
 
 [node name="Scroll" type="AnimationPlayer" parent="BG-tooltip"]
-autoplay = "scroll_text"
 libraries = {
-"": SubResource("AnimationLibrary_ombnt")
+&"": SubResource("AnimationLibrary_ombnt")
 }
+autoplay = "scroll_text"

@@ -1,23 +1,11 @@
-[gd_scene load_steps=2 format=3 uid="uid://d1n4vpdnqfutv"]
+[gd_scene load_steps=2 format=3 uid="uid://dboa0tfk1i671"]
 
-[ext_resource type="Script" uid="uid://ct30cv8jvednj" path="res://scene/ui/text_scroll.gd" id="1_6tlha"]
+[ext_resource type="Script" uid="uid://ct30cv8jvednj" path="res://scene/ui/text_scroll.gd" id="1_cxn2m"]
 
-[node name="Control" type="Control"]
+[node name="CodeTest" type="Control"]
 layout_mode = 3
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -64.0
-offset_top = -36.0
-offset_right = -64.0
-offset_bottom = -36.0
-grow_horizontal = 2
-grow_vertical = 2
-size_flags_horizontal = 4
-size_flags_vertical = 4
-script = ExtResource("1_6tlha")
+anchors_preset = 0
+script = ExtResource("1_cxn2m")
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 0

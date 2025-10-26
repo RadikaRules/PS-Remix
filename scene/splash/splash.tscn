@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://dslx258h53i2j"]
 
-[ext_resource type="Texture2D" uid="uid://bmt8gi2uwtcnk" path="res://scene/splash/icon-godot.svg" id="1_dxqig"]
-[ext_resource type="Script" path="res://scene/splash/splash-script.gd" id="2_61n8t"]
+[ext_resource type="Texture2D" uid="uid://bmt8gi2uwtcnk" path="res://gfx/splash/icon-godot.svg" id="1_dxqig"]
+[ext_resource type="Script" uid="uid://1ut07n5lt3v5" path="res://scene/splash/splash-script.gd" id="2_61n8t"]
 
 [node name="splash" type="CanvasLayer"]
 

@@ -1,0 +1,60 @@
+[gd_scene load_steps=4 format=3 uid="uid://ccdrd83f4783l"]
+
+[ext_resource type="Texture2D" uid="uid://bmt8gi2uwtcnk" path="res://gfx/splash/icon-godot.svg" id="1_dxqig"]
+[ext_resource type="Script" path="res://scene/fade_to_title.gd" id="2_j6rws"]
+[ext_resource type="Texture2D" uid="uid://bucyh0mc0187v" path="res://gfx/splash/Logo.svg" id="2_l03ij"]
+
+[node name="splash" type="CanvasLayer"]
+
+[node name="BG" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="Icon-godot" type="TextureRect" parent="."]
+offset_left = 79.0
+offset_top = 235.0
+offset_right = 207.0
+offset_bottom = 363.0
+texture = ExtResource("1_dxqig")
+
+[node name="Logo" type="TextureRect" parent="."]
+offset_left = 428.0
+offset_top = 255.0
+offset_right = 1726.0
+offset_bottom = 470.0
+scale = Vector2(0.251056, 0.251056)
+texture = ExtResource("2_l03ij")
+
+[node name="Text" type="RichTextLabel" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -315.0
+offset_top = -97.0
+offset_right = 266.0
+offset_bottom = 98.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Powered by																				Developed by
+
+
+
+
+
+
+Godot Game Engine"
+fit_content = true
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.8
+one_shot = true
+autostart = true
+script = ExtResource("2_j6rws")
+
+[connection signal="timeout" from="Timer" to="Timer" method="_on_timeout"]

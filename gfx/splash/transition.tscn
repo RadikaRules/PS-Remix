@@ -1,0 +1,57 @@
+[gd_scene load_steps=5 format=3 uid="uid://cp31is5mse8te"]
+
+[ext_resource type="Script" path="res://scene/transition.gd" id="1_se7ek"]
+
+[sub_resource type="Animation" id="Animation_1uwae"]
+resource_name = "RESET"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("rect_dissolve:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(2, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_d34fh"]
+resource_name = "fade"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("rect_dissolve:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_ll48t"]
+_data = {
+"RESET": SubResource("Animation_1uwae"),
+"fade": SubResource("Animation_d34fh")
+}
+
+[node name="transition" type="CanvasLayer"]
+script = ExtResource("1_se7ek")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+method_call_mode = 1
+libraries = {
+"": SubResource("AnimationLibrary_ll48t")
+}
+
+[node name="rect_dissolve" type="ColorRect" parent="."]
+modulate = Color(1, 1, 1, 0)
+offset_left = -24.0
+offset_top = -14.0
+offset_right = 1053.0
+offset_bottom = 740.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)

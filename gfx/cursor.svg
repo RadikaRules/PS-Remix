@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="31.999998"
+   height="32"
+   viewBox="0 0 8.466666 8.4667156"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   sodipodi:docname="cursor.svg"
+   inkscape:export-filename="..\Logo.png"
+   inkscape:export-xdpi="24.24"
+   inkscape:export-ydpi="24.24"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title134">Cursor - Power Swing ReMixed</title>
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="26.718749"
+     inkscape:cx="16"
+     inkscape:cy="16"
+     inkscape:current-layer="svg5"
+     inkscape:export-bgcolor="#00ff7500">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="8.4666662"
+       height="8.4667158"
+       id="page2"
+       inkscape:label="cursor"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="tiling"
+       id="path-effect1194"
+       is_visible="true"
+       lpeversion="1"
+       unit="px"
+       seed="1;1"
+       lpesatellites=""
+       num_rows="3"
+       num_cols="1"
+       gapx="0"
+       gapy="4"
+       offset="0"
+       offset_type="false"
+       scale="0"
+       rotate="0"
+       mirrorrowsx="false"
+       mirrorrowsy="false"
+       mirrorcolsx="false"
+       mirrorcolsy="false"
+       mirrortrans="false"
+       shrink_interp="false"
+       split_items="false"
+       link_styles="false"
+       interpolate_scalex="false"
+       interpolate_scaley="true"
+       interpolate_rotatex="false"
+       interpolate_rotatey="true"
+       random_scale="false"
+       random_rotate="false"
+       random_gap_y="false"
+       random_gap_x="false"
+       transformorigin="" />
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="logo"
+     style="font-weight:bold;font-size:38.1px;line-height:1.25;font-family:'IM FELL THREE LINE PICA';-inkscape-font-specification:'IM FELL THREE LINE PICA Bold';font-variant-ligatures:none;text-align:center;text-anchor:middle;stroke-width:0.264583"
+     transform="translate(-140.28281,236.09507)" />
+  <g
+     inkscape:label="text"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-140.28281,236.09507)" />
+  <g
+     id="g1274"
+     inkscape:label="cursor"
+     transform="matrix(0.29248113,0,0,0.29248113,-90.672996,-25.691386)"
+     inkscape:export-filename="..\cursor.png"
+     inkscape:export-xdpi="24.25"
+     inkscape:export-ydpi="24.25"
+     style="font-weight:bold;font-size:38.1px;line-height:1.25;font-family:'IM FELL THREE LINE PICA';-inkscape-font-specification:'IM FELL THREE LINE PICA Bold';font-variant-ligatures:none;text-align:center;text-anchor:middle;display:inline;stroke-width:0.264583">
+    <path
+       style="font-weight:bold;font-size:38.1px;line-height:1.25;font-family:'IM FELL THREE LINE PICA';-inkscape-font-specification:'IM FELL THREE LINE PICA Bold';font-variant-ligatures:none;text-align:center;text-anchor:middle;fill:#ffe6d5;fill-opacity:1;stroke:#000000;stroke-width:0.444152;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 335.70442,113.33533 c -7.11765,-7.40497 -7.35716,-9.77123 -7.35716,-9.77123 L 315.96032,89.240314 c 0,0 -3.5433,-0.470206 -3.16976,2.739106 l 11.99359,14.48081 c 0,0 2.22944,0.74232 9.15111,8.38559 z"
+       id="path1266"
+       sodipodi:nodetypes="ccccccc" />
+    <path
+       style="font-weight:bold;font-size:38.1px;line-height:1.25;font-family:'IM FELL THREE LINE PICA';-inkscape-font-specification:'IM FELL THREE LINE PICA Bold';font-variant-ligatures:none;text-align:center;text-anchor:middle;fill:#ffe6d5;stroke:#000000;stroke-width:0.380734;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:70.2"
+       id="path1268"
+       sodipodi:type="arc"
+       sodipodi:cx="-178.61906"
+       sodipodi:cy="305.25723"
+       sodipodi:rx="2.55076"
+       sodipodi:ry="1.3952501"
+       sodipodi:start="1.5597701"
+       sodipodi:end="1.5077047"
+       sodipodi:open="true"
+       sodipodi:arc-type="arc"
+       d="m -178.59094,306.6524 a 2.55076,1.3952501 0 0 1 -2.57815,-1.36163 2.55076,1.3952501 0 0 1 2.45552,-1.42783 2.55076,1.3952501 0 0 1 2.64207,1.32445 2.55076,1.3952501 0 0 1 -2.38674,1.46232"
+       transform="matrix(-0.75663629,0.653836,0.653836,0.75663629,0,0)" />
+  </g>
+  <metadata
+     id="metadata132">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Cursor - Power Swing ReMixed</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

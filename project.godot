@@ -13,9 +13,9 @@ config_version=5
 config/name="Power Swing ReMixed"
 config/description="A reinvention of the Flash games Power Ball and Power Swing by D-SuN
 developed in Godot with new features and tweaks inspired by Lethal League"
-run/main_scene="res://scene/splash/splash.tscn"
-config/features=PackedStringArray("4.1", "Forward Plus")
-config/icon="res://gfx/icon.png"
+run/main_scene="uid://ccdrd83f4783l"
+config/features=PackedStringArray("4.5", "Forward Plus")
+config/icon="res://gfx/icon.svg"
 
 [autoload]
 
@@ -28,7 +28,7 @@ window/size/viewport_width=1024
 window/size/viewport_height=728
 window/size/resizable=false
 window/size/borderless=true
-mouse_cursor/custom_image="res://gfx/cursor.png"
+mouse_cursor/custom_image="uid://d07nubn77f015"
 
 [editor]
 
@@ -38,6 +38,6 @@ movie_writer/movie_file="E:/Nextcloud/Media Production/Exports/debug.avi"
 
 ui_quit={
 "deadzone": 0.5,
-"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":4194305,"key_label":0,"unicode":0,"echo":false,"script":null)
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":4194305,"key_label":0,"unicode":0,"location":0,"echo":false,"script":null)
 ]
 }
